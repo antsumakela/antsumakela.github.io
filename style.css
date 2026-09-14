@@ -57,12 +57,12 @@ ul li a:hover {
   width: 400px;
 
 .kuva-kontti {
-  display: flex;         /* Asettaa elementit vierekkäin */
-  gap: 100px;             /* Kuvien välinen tila */
+  display: flex;         /* Asettaa kuvat vierekkäin */
+  gap: 100px;             /* Kuvien välinen tila "ei toimi?"*/
 }
   
 .kuva-kontti img {
-  width: 20%;            /* Kuvat vievät puolet tilasta kumpikin */
+  width: 50%;            /* TODO miksei toimi, pitäisi olla puolet sivusta ja 2 vierekkäin*/
   height: auto;          /* Säilyttää mittasuhteet */
 }
 
