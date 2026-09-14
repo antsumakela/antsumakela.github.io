@@ -74,8 +74,14 @@ ul li a:hover {
   height: auto;          /* Säilyttää mittasuhteet */
 }
 
-form {
+.kysymys-kontti {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  min-height: 100vh; 
+}
+
+.kysymys-formi {
   width: 100%;
-  max-width: 400px;
-  margin: 0 auto; /* keskitys */
+  max-width: 400px;        
 }
