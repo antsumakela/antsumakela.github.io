@@ -1,0 +1,68 @@
+body {
+  background-color: LightGrey;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-family: verdana;
+  font-size: 120px;
+  float:center;
+}
+
+h3 {
+  color: black;
+  text-align: center;
+  font-family: verdana;
+  font-size: 70px;
+  float:center;
+}
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+h2, p {
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+.omaLogo {
+  float: left;
+  height: auto;
+  width: 400px;
+
+.kuva-kontti {
+  display: flex;         /* Asettaa elementit vierekkäin */
+  gap: 100px;             /* Kuvien välinen tila */
+}
+  
+.kuva-kontti img {
+  width: 20%;            /* Kuvat vievät puolet tilasta kumpikin */
+  height: auto;          /* Säilyttää mittasuhteet */
+}
+
