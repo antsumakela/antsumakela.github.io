@@ -74,14 +74,8 @@ ul li a:hover {
   height: auto;          /* Säilyttää mittasuhteet */
 }
 
- .lomakekontti {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
 form {
   width: 100%;
   max-width: 400px;
+  margin: 0 auto; /* keskitys */
 }
