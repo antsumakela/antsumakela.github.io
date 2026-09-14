@@ -18,7 +18,7 @@
 <div class="kysymys-kontti">  
   <form class="kysymys-formi">
     <label for="nimi">Nimi:</label><br>
-    <input type="text" id="nimi" name="nimi" value="Matti Meikeläinen"><br><br>
+    <input type="text" id="nimi" name="nimi" value="Matti Meikeläinen" onclick="this.select();"><br><br>
     <label for="sukupuoli">Sukupuolesi:</label>
     <select id="sukupuoli" name="sukupuoli">
       <option value="mies">Mies</option>
@@ -26,9 +26,9 @@
       <option value="muu">Muu</option>
     </select><br><br>
     <label for="email">Email:</label><br>
-    <input type="text" id="email" name="email" value="olut@tower.fi"><br><br>
+    <input type="text" id="email" name="email" value="olut@tower.fi" onclick="this.select();"><br><br>
     <label for="viesti">Viestisi meille:</label><br>
-    <textarea name="viesti" style="width:300px; height:150px;">Olut on hyvää!</textarea><br><br>
+    <textarea name="viesti" style="width:300px; height:150px;">Olut on hyvää!" onclick="this.select();"</textarea><br><br>
     <input type="submit" value="Lähetä">
   </form> 
 </div>
