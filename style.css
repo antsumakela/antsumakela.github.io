@@ -71,7 +71,7 @@ ul li a:hover {
   
 .kuva-kontti-img {
   width: 50%;            /* TODO miksei toimi, pitäisi olla puolet sivusta ja 2 vierekkäin*/
-  height: auto;          /* Säilyttää mittasuhteet */
+  height: 50%;          /* Säilyttää mittasuhteet */
   margin: 100px
 }
 
