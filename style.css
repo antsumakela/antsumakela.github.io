@@ -1,5 +1,8 @@
 body {
-  background-color: LightGrey;
+  background-image: url("harmaatausta.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   margin: 0;
   padding: 0;
 }
@@ -8,7 +11,7 @@ h1 {
   color: black;
   text-align: center;
   font-family: verdana;
-  font-size: 120px;
+  font-size: 100px;
   float:center;
 }
 
@@ -25,6 +28,14 @@ h3 {
   text-align: center;
   font-family: verdana;
   font-size: 70px;
+  float:center;
+}
+
+h4 {
+  color: black;
+  text-align: left;
+  font-family: verdana;
+  font-size: 60px;
   float:center;
 }
 p {
@@ -63,16 +74,17 @@ ul li a:hover {
   float: left;
   height: auto;
   width: 400px;
+}
 
 .kuva-kontti {
   display: flex;         /* Asettaa kuvat vierekkäin */
-  gap: 100px;             /* Kuvien välinen tila "ei toimi?"*/
+  gap: 4%;  
 }
   
 .kuva-kontti img {
-  width: 50%;            /* TODO miksei toimi, pitäisi olla puolet sivusta ja 2 vierekkäin*/
+  width: 44%;            /* */
   height: auto;          /* Säilyttää mittasuhteet */
-  margin: 100px
+  margin: 2%;
 }
 
 .kysymys-kontti {
@@ -86,3 +98,9 @@ ul li a:hover {
   width: 100%;
   max-width: 400px;        
 }
+
+.eskontti {
+  width: 30%;
+  margin: 0 auto;
+}
+
