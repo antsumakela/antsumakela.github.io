@@ -76,14 +76,18 @@ ul li a:hover {
   width: 400px;
 }
 
+img {
+  border-radius: 20px;        /*Antaa kuville vähemmän terävät kulmat*/
+}
+
 .kuva-kontti {
-  display: flex;         /* Asettaa kuvat vierekkäin */
+  display: flex;        /* Asettaa kuvat vierekkäin */
   gap: 4%;  
 }
   
 .kuva-kontti img {
-  width: 44%;            /* */
-  height: auto;          /* Säilyttää mittasuhteet */
+  width: 44%;
+  height: auto;       /* Säilyttää mittasuhteet */
   margin: 2%;
 }
 
@@ -110,7 +114,7 @@ footer {
   padding: 10px;
 }
 
-.footer-small /*Saa Yhteystiedot-sivun footerin näkymään sivun alareunassa*/ {
-  position:fixed;
+.footer-small {
+  position:fixed;       /*Saa Yhteystiedot-sivun footerin näkymään sivun alareunassa*/
   bottom: 0px;
 }
