@@ -109,3 +109,8 @@ footer {
   background-color: #22222222;
   padding: 10px;
 }
+
+.footer-small /*Saa Yhteystiedot-sivun footerin näkymään sivun alareunassa*/ {
+  position:fixed;
+  bottom: 0px;
+}
