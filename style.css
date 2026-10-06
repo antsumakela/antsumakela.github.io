@@ -38,10 +38,20 @@ h4 {
   font-size: 60px;
   float:center;
 }
+
+.tekstiboksi {
+  max-width: max-content;
+  background-color: #9797978e;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 15px;
+}
+
 p {
   font-family: verdana;
   font-size: 20px;
 }
+
 h2, p {
   margin: 10px;
 }
@@ -111,7 +121,7 @@ img {
 
 footer {
   width: 100%;
-  background-color: #22222222;
+  background-color: #979797;
   padding: 10px;
 }
 
