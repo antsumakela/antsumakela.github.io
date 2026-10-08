@@ -102,6 +102,12 @@ img {
   margin: 2%;
 }
 
+.kuvankuvaus {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: xx-large;
+}
+
 .kysymys-kontti {
   display: flex;
   justify-content: center;
